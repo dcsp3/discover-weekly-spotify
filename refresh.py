@@ -17,6 +17,3 @@ class Refresh:
         response_json = response.json()
         
         return response_json["access_token"]
-
-import datetime 
-print (datetime.date.today())
